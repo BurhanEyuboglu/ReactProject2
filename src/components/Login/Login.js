@@ -17,11 +17,14 @@ const Login = (props) => {
 
   useEffect(() => {
     const identifier = setTimeout(() => {
+      console.log("Checking for the validity");
       setFormIsValid(
         enteredPassword.trim().length > 6 && enteredEmail.includes("@")
       );
     }, 500);
+
     return () => {
+      console.log("Clean up");
       clearTimeout(identifier);
     };
   }, [enteredPassword, enteredEmail]);
