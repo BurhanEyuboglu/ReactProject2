@@ -12,4 +12,4 @@ const MainHeader = (props) => {
   );
 };
 
-export default ;
+export default MainHeader;
