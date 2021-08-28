@@ -27,8 +27,4 @@ const Navigation = (props) => {
   );
 };
 
-<<<<<<< HEAD
-export default Navigation
-=======
 export default Navigation;
->>>>>>> 57cb3cf438c7ac10cf20f0cdfcef2020105542fb
